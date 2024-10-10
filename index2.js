@@ -1,4 +1,13 @@
-let saldoRanked = Ranked(20,5151)
+
+let vitoria = 100
+let derrota = 44
+saldoRanked = saldoFinal (vitoria, derrota)
+
+function saldoFinal (vitoria, derrota) {
+    let saldoFinal = vitoria - derrota;
+    return saldoFinal	
+ 
+ }
 
 if (saldoRanked <= 10) {
     console.log("O Jogador está com saldo de vitórias " + saldoRanked + " e está no nível de Ferro")
@@ -27,9 +36,3 @@ else if (saldoRanked >=91 && saldoRanked <= 100) {
 else if (saldoRanked >= 101) {
     console.log("O Jogador está com saldo de vitórias " + saldoRanked + " e está no nível de Imortal")
     }     
-
-function Ranked (numA, numB) {
-   let saldoTotal = numA * numB
-   return saldoTotal	
-
-}
