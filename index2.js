@@ -4,8 +4,8 @@ let derrota = 44
 saldoRanked = saldoFinal (vitoria, derrota)
 
 function saldoFinal (vitoria, derrota) {
-    let saldoFinal = vitoria - derrota;
-    return saldoFinal	
+    let saldo = vitoria - derrota;
+    return saldo	
  
  }
 
